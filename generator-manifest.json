@@ -1,0 +1,24 @@
+{
+  "depends": "",
+  "description": "NewsReader for reading RSS-feeds",
+  "legacy_setup": {
+    "description": "NewsReader for reading RSS-feeds",
+    "has_setup_translate": true,
+    "name": "enigma2-plugin-extensions-newsreader",
+    "package_data": [],
+    "package_dir_value": "",
+    "packages": [],
+    "pkg": "Extensions.NewsReader",
+    "version": "1.0"
+  },
+  "module_dir_name": "NewsReader",
+  "package_name": "enigma2-plugin-extensions-newsreader",
+  "plugin_group": "extensions",
+  "source_repo_branch": "python3",
+  "source_repo_name": "e2openplugin-NewsReader",
+  "source_repo_url": "https://github.com/E2OpenPlugins/e2openplugin-NewsReader.git",
+  "target_repo_branch": "main",
+  "target_repo_name": "NewsReader",
+  "target_repo_url": "git@github.com:oe-alliance-plugins/NewsReader.git",
+  "version": "1.0"
+}
