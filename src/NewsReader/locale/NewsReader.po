@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-01 19:52+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-12 16:13+0200\n"
 "PO-Revision-Date: 2023-05-02 09:45+0200\n"
 "Last-Translator: Mr.Servo <mrservo via GitHub.com>\n"
 "Language-Team: \n"
@@ -13,54 +14,91 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: .\n"
 
-#: ..\plugin.py:190 ..\plugin_GitHub.py:192 ..\plugin_Test.py:209
-msgid "Feed already exists!"
-msgstr "Feed existiert bereits!"
+#: ../plugin.py:87
+#, python-format
+msgid "Beim Anzeigen des Feeds %s ist ein Fehler aufgetreten"
+msgstr ""
 
-#: ..\plugin.py:194 ..\plugin_GitHub.py:196 ..\plugin_Test.py:213
+#: ../plugin.py:398
+msgid "Error processing feeds"
+msgstr "Fehler bei der Verarbeitung des Feeds"
+
+#: ../plugin.py:196
 msgid "Feed added"
 msgstr "Feed ergänzt"
 
-#: ..\plugin.py:201 ..\plugin_GitHub.py:203 ..\plugin_Test.py:220
-msgid "Feed updated"
-msgstr "Feed aktualisiert"
+#: ../plugin.py:192
+msgid "Feed already exists!"
+msgstr "Feed existiert bereits!"
 
-#: ..\plugin.py:202 ..\plugin_GitHub.py:204 ..\plugin_Test.py:221
+#: ../plugin.py:204
 msgid "Feed not found in config"
 msgstr "Feed wurde in der Konfiguration nicht gefunden"
 
-#: ..\plugin.py:257 ..\plugin_GitHub.py:262 ..\plugin_Test.py:279
-msgid "change feed"
-msgstr "ändere Feed"
+#: ../plugin.py:203
+msgid "Feed updated"
+msgstr "Feed aktualisiert"
 
-#: ..\plugin.py:258 ..\plugin_GitHub.py:263 ..\plugin_Test.py:280
-msgid "add new feed"
-msgstr "neuen Feed hinzufügen"
-
-#: ..\plugin.py:259 ..\plugin_GitHub.py:264 ..\plugin_Test.py:281
-msgid "delete feed"
-msgstr "lösche Feed"
-
-#: ..\plugin.py:295 ..\plugin_GitHub.py:304 ..\plugin_Test.py:321
-msgid "Please enter a name for the new feed"
-msgstr "Bitte geben Sie einen Namen für den neuen Feed ein"
-
-#: ..\plugin.py:302 ..\plugin_GitHub.py:311 ..\plugin_Test.py:328
-msgid "Please enter a url for the new feed"
-msgstr "Bitte geben Sie eine Url für den neuen Feed ein"
-
-#: ..\plugin.py:309 ..\plugin_GitHub.py:318 ..\plugin_Test.py:335
+#: ../plugin.py:311
 msgid "Please enter a description for the new feed"
 msgstr "Bitte geben Sie eine Beschreibung für den neuen Feed ein"
 
-#: ..\plugin.py:327
+#: ../plugin.py:297
+msgid "Please enter a name for the new feed"
+msgstr "Bitte geben Sie einen Namen für den neuen Feed ein"
+
+#: ../plugin.py:304
+msgid "Please enter a url for the new feed"
+msgstr "Bitte geben Sie eine Url für den neuen Feed ein"
+
+#: ../plugin.py:260
+msgid "add new feed"
+msgstr "neuen Feed hinzufügen"
+
+#: ../plugin.py:326
+#, fuzzy, python-format
+msgid ""
+"adding feed failed!\n"
+"\n"
+"%s"
+msgstr "Laden der Feeddaten fehlgeschlagen!"
+
+#: ../plugin.py:329
 msgid "adding was canceled"
 msgstr "Hinzufügen wurde abgebrochen"
 
-#: ..\plugin.py:381
+#: ../plugin.py:338
+#, python-format
+msgid ""
+"are you sure to delete this feed?\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../plugin.py:259
+msgid "change feed"
+msgstr "ändere Feed"
+
+#: ../plugin.py:322
+#, fuzzy, python-format
+msgid ""
+"changing feed failed!\n"
+"\n"
+"%s"
+msgstr "Laden der Feeddaten fehlgeschlagen!"
+
+#: ../plugin.py:261
+msgid "delete feed"
+msgstr "lösche Feed"
+
+#: ../plugin.py:383
 msgid "loading feeddata failed!"
 msgstr "Laden der Feeddaten fehlgeschlagen!"
 
-#: ..\plugin.py:396 ..\plugin_GitHub.py:419
-msgid "Error processing feeds"
-msgstr "Fehler bei der Verarbeitung des Feeds"
+#: ../plugin.py:84
+#, fuzzy, python-format
+msgid ""
+"loading feeddata failed!\n"
+"\n"
+"%s"
+msgstr "Laden der Feeddaten fehlgeschlagen!"
